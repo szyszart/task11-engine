@@ -1,0 +1,2 @@
+module Postit::ApplicationHelper
+end

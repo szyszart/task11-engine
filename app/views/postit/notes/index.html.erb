@@ -1,0 +1,18 @@
+<div id="notesnav">
+<%= link_to "Leave a note", new_note_path %> |
+<%= link_to "Go back", '/' %>
+</div>
+
+<% for n in @notes %>
+<div class="note">
+    <div class="pin"></div>
+    <div class="notecontent"><%= h n.content -%></div>
+    <div class="noteinfo">
+        by <%= h n.author -%> 
+    </div>
+    <div class="notebottom">
+        <%= link_to 'Edit', edit_note_path(n) %> <br />
+        <%= button_to 'Delete', n, :method => :delete %>
+    </div>
+</div>
+<% end %>

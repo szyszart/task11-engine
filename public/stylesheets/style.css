@@ -1,0 +1,59 @@
+body {
+    background-color: #ddd;    
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Trebuchet, Arial, sans-serif;
+}
+
+h1 {
+    font-family: "Trebuchet MS", Arial, Helvitica, sans-serif;
+}
+
+div.flash {
+    border: 1px dotted blue;
+    margin: 5px;
+}
+
+#notesnav {
+    border: 1px dotted black;
+    background-color: #f6f5ed;
+    padding: 1em;
+    margin-bottom: 8px;
+}
+
+#notesnav a {
+   color: #730505;
+}
+
+div.note {
+    float: left;
+    width: 176px;
+    margin: 5px 5px 5px 5px;
+    background-color: #F9F948;
+}
+
+.pin {
+    background-image: url('/postit/images/pin.png');
+    width: 25px;
+    height: 28px;
+    margin: 0 0 15px 20%;
+}
+
+.notecontent {
+    margin: 0 0 0 0;
+    padding: 0 1em 0 1em;    
+    text-align: left;
+}
+
+div.noteinfo {
+    padding: 0 1em 0 1em;    
+    text-align: right;
+    overflow: hidden;
+}
+
+div.notebottom {
+    height: 62px;
+    background-image: url('/postit/images/bottom.png');
+    background-color: #ddd;
+    padding: 0 1em 0 1em;    
+    text-align: right;
+    overflow: hidden;
+}
